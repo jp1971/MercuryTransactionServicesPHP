@@ -38,6 +38,31 @@ class MercuryTSClient {
 	public function creditPreAuthCaptureToken( $preAuthCapture, $password ) {
 		$preAuthCaptureRequest = array( 'request' => $preAuthCapture, 'password' => $password );
 		return $this->wsClient->CreditPreAuthCaptureToken( $preAuthCaptureRequest );
+	}
+
+	public function creditSaleToken( $creditSale, $password ) {
+		$creditSaleRequest = array( 'request' => $creditSale, 'password' => $password );
+		return $this->wsClient->CreditSaleToken( $creditSaleRequest );
+	}
+
+	public function creditAdjustToken( $creditAdjust, $password ) {
+		$creditAdjustRequest = array( 'request' => $creditAdjust, 'password' => $password );
+		return $this->wsClient->CreditAdjustToken( $creditAdjustRequest );
+	}
+
+	public function creditVoidSaleToken( $creditVoidSale, $password ) {
+		$creditVoidSaleRequest = array( 'request' => $creditVoidSale, 'password' => $password );
+		return $this->wsClient->CreditVoidSaleToken( $creditVoidSaleRequest );
+	}
+
+	public function creditReversalToken( $creditReversal, $password ) {
+		$creditReversalRequest = array( 'request' => $creditReversal, 'password' => $password );
+		return $this->wsClient->CreditReversalToken( $creditReversalRequest );
+	}
+
+	public function creditVoidReturnToken( $creditVoidReturn, $password ) {
+		$creditVoidReturnRequest = array( 'request' => $creditVoidReturn, 'password' => $password );
+		return $this->wsClient->CreditVoidReturnToken( $creditVoidReturnRequest );
 	}	
 	
 	public function creditReturnToken($creditReturn, $password) {
