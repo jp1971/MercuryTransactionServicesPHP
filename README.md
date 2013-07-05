@@ -12,8 +12,6 @@ MercuryTSClient
 
 Each method takes an associative array of request parameters as well as the appropriate WebServices Password.
 
-SampleIntegration.php provides a few short examples of how to use a MercuryTSClient object to send requests and how to get the response data. The SampleIntegration.php page also (when viewed in a browser) prints the raw request and response data.
-
 All types exposed by the Transaction Services API are returned by MercuryTSClient->getTypes();
 
 The appropriate endpoint WSDL URL must be specified in the constructor of MercuryTSClient.
