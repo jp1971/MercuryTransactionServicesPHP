@@ -9,6 +9,10 @@ MercuryTSClient
  - [creditPreAuthCaptureToken( $preAuthCapture, $password )](https://hc.mercurydev.net/tws/transactionservice.asmx?op=CreditPreAuthCaptureToken)
  - [creditSaleToken( $creditSale, $password )](https://hc.mercurydev.net/tws/transactionservice.asmx?op=CreditSaleToken)
  - [creditAdjustToken( $creditAdjust, $password ) ](https://hc.mercurydev.net/tws/transactionservice.asmx?op=CreditAdjustToken)
+ - [creditVoidSaleToken( $creditVoidSale, $password ) ](https://hc.mercurydev.net/tws/transactionservice.asmx?op=CreditVoidSaleToken)
+ - [creditReversalToken( $creditReversal, $password ) ](https://hc.mercurydev.net/tws/transactionservice.asmx?op=CreditReversalToken)
+ - [creditReturnToken( $creditReturn, $password ) ](https://hc.mercurydev.net/tws/transactionservice.asmx?op=CreditReturnToken)
+ - [creditVoidReturnToken( $creditVoidReturn, $password ) ](https://hc.mercurydev.net/tws/transactionservice.asmx?op=CreditVoidReturnToken) 
 
 Each method takes an associative array of request parameters as well as the appropriate WebServices Password.
 
